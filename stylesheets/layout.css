@@ -1,0 +1,13 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  cursor: url("../images/carcur.png") 128px 128px, default;
+  background-color: #030119;
+  color: #fff;
+}
+
+.block-1 {
+  height: 35.3125vw;
+  background-image: url("../images/9ee19fa9c317ec3455f7053b2ca5fb99.gif");
+}
