@@ -47,7 +47,6 @@ p {
   font-style: normal;
   font-size: 5vw;
   color: #eae0d5;
-
   white-space: nowrap;
   position: relative;
   animation: runstr 15s linear infinite;
