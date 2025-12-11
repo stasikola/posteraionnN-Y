@@ -13,42 +13,51 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  margin-top: 9.8438vw;
+
   /* width: 100%;
   height: 5.3906vw; */
 }
 h1 {
+  margin-top: 9.8438vw;
   font-weight: 200;
   font-style: normal;
   font-size: 13.4375vw;
   color: #d1873c;
+  line-height: 0.8;
 }
 p {
   font-family: "Christopher";
   font-weight: 300;
   font-style: normal;
+  color: #e5d1bc;
   font-size: 13.4375vw;
-  /* line-height: 0.8; - слетает следующий див */
 }
+.block-1 p {
+  line-height: 0.1;
+  margin-bottom: 9.8438vw;
+  text-shadow: 0 5px 3px #d1873c;
+  letter-spacing: 0.8594vw;
+}
+
 .runstr-1 {
   display: block;
   width: 100%;
   height: 7.8125vw;
   border-top: 0.3125vw solid #d1873c;
   border-bottom: 0.3125vw solid #d1873c;
-  overflow-x: hidden;
+  overflow: hidden;
   text-align: center;
-  line-height: 7.8125vw;
 }
 
 .runstr-1 p {
+  width: 200%;
   font-family: "modern_dot_digital-7";
   font-weight: 400;
   font-style: normal;
   font-size: 5vw;
-  color: #eae0d5;
   white-space: nowrap;
   position: relative;
+  line-height: 7.8125vw;
   animation: runstr 15s linear infinite;
 }
 /* .chris-tree {
@@ -76,10 +85,76 @@ p {
   left: 0;
   width: 100%;
   height: 100%;
-  background: url(../images/picmix.com_711619.gif);
+  background: url(../images/9fc7d992a5db.gif);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   mix-blend-mode: screen;
   z-index: -1;
+}
+.chris-tree::after {
+  content: "";
+  position: absolute;
+  top: 30vw;
+  left: 13vw;
+  width: 65vw;
+  height: 70vw;
+  background: url(../images/gard.gif);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  mix-blend-mode: screen;
+  z-index: 0;
+}
+.runstr-2 {
+  display: block;
+  width: 100%;
+  height: 7.8125vw;
+  border-top: 0.3125vw solid #d1873c;
+  border-bottom: 0.3125vw solid #d1873c;
+  overflow: hidden;
+  text-align: center;
+}
+
+.runstr-2 p {
+  width: 200%;
+  font-family: "modern_dot_digital-7";
+  font-weight: 400;
+  font-style: normal;
+  font-size: 5vw;
+  color: #eae0d5;
+  white-space: nowrap;
+  position: relative;
+  line-height: 7.8125vw;
+  animation: runstr2 10s linear infinite;
+}
+.sh1 {
+  position: absolute;
+  top: 33vw;
+  left: 50vw;
+  width: 6.9531vw;
+  height: 6.9531vw;
+}
+.sh1:hover {
+  opacity: 0;
+}
+
+img {
+  width: 42.5781vw;
+  height: 28.5625vw;
+}
+.block-2 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-top: 11.7188vw;
+  gap: 8vw;
+}
+
+.block-2 h1 {
+  color: #e5d1bc;
+  font-size: 5vw;
+  text-align: center;
+  margin-top: 4.5vw;
 }

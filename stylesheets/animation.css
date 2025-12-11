@@ -1,8 +1,16 @@
 @keyframes runstr {
   0% {
-    transform: translateX(100%);
+    transform: translateX(50%);
   }
   100% {
-    transform: translateX(-100%);
+    transform: translateX(-50%);
+  }
+}
+@keyframes runstr2 {
+  0% {
+    transform: translateX(20%);
+  }
+  100% {
+    transform: translateX(-50%);
   }
 }
