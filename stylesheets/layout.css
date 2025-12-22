@@ -367,10 +367,38 @@ p {
   left: 53.5vw;
   width: 38.3594vw;
   height: 25.7813vw;
+  background-image: url(../images/Ellipse\ 101.png);
+  background-repeat: no-repeat;
+  background-size: 9vw;
+  background-position: 1vw 5vw;
+  transition: 0.3s;
 }
-
+.be,
+.box1,
+.box1-r {
+  position: absolute;
+  width: 11.7188vw;
+  height: auto;
+}
+.be {
+  top: 1.8vw;
+  opacity: 0;
+}
+.be:hover .box1 {
+  animation: be 2s ease-in-out;
+}
+.box1 {
+  top: 0.8vw;
+  transform-origin: right;
+  transition: transform 0.5s ease;
+}
+.box1-r {
+}
+.b1:hover .box1 {
+  transform: rotateY(-80deg); /* Открываем вперед */
+}
 /* postcard */
-img {
+.block-2 img {
   width: 42.5781vw;
   height: 28.5625vw;
 }
