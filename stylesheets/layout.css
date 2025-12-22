@@ -363,26 +363,27 @@ p {
 /* gift */
 .b1 {
   position: absolute;
-  top: 95vw;
+  top: 99vw;
   left: 30.5vw;
-  width: 38.3594vw;
+  width: 11.7188vw;
   height: 25.7813vw;
   background-image: url(../images/Ellipse\ 101.png);
   background-repeat: no-repeat;
-  background-size: 9vw;
-  background-position: 1.3vw 5vw;
-  transition: 0.3s;
+  background-size: 11vw;
+  background-position: 1.5vw 5.2vw;
+  z-index: 3;
 }
 .be,
 .box1,
 .box1-r {
   position: absolute;
-  width: 11.7188vw;
+  width: 13.7188vw;
   height: auto;
 }
 .be {
   top: 1.8vw;
   opacity: 0;
+  transition: 3s;
 }
 .b1:hover .be {
   animation: be 20s ease-in;
@@ -396,6 +397,86 @@ p {
 }
 .b1:hover .box1 {
   transform: rotate(80deg); /* Открываем вперед */
+}
+.box2 {
+  position: absolute;
+  top: 98vw;
+  left: 12.5vw;
+  width: 22.625vw;
+  height: 22.625vw;
+}
+.box3 {
+  position: absolute;
+  top: 95vw;
+  left: 23.5vw;
+  width: 17.7813vw;
+  height: 15.125vw;
+}
+.box4 {
+  position: absolute;
+  top: 92.5vw;
+  left: 55.5vw;
+  width: 25vw;
+  height: 25vw;
+}
+.box5 {
+  position: absolute;
+  top: 95vw;
+  left: 68.5vw;
+  width: 21.6406vw;
+  height: 21vw;
+}
+.b6 {
+  position: absolute;
+  top: 105vw;
+  left: 62.5vw;
+  width: 20.7188vw;
+  height: 30.7813vw;
+  background-image: url(../images/Ellipse\ 101.png);
+  background-repeat: no-repeat;
+  background-size: 14.5vw;
+  background-position: 2.3vw 3vw;
+  z-index: 5;
+}
+.be2,
+.box6,
+.box6-r {
+  position: absolute;
+  width: 18.7188vw;
+  height: auto;
+}
+.be2 {
+  top: 1.8vw;
+  left: 2vw;
+  opacity: 0;
+  transition: 3s;
+  width: 15.7188vw;
+}
+.b6:hover .be2 {
+  animation: be 20s ease-in;
+}
+.box6-r {
+  top: 0.8vw;
+  transform-origin: right;
+  transition: transform 0.5s ease;
+}
+
+.b6:hover .box6-r {
+  transform: rotate(80deg); /* Открываем вперед */
+}
+.ho {
+  position: absolute;
+  top: 93vw;
+  left: 62.5vw;
+  width: 100%;
+  height: 26.7969vw;
+  overflow: hidden;
+  z-index: 5;
+  animation: runstr 10s linear infinite;
+}
+.horse {
+  width: 47vw;
+  height: 26.796vw;
 }
 /* postcard */
 .block-2 img {
@@ -426,8 +507,8 @@ p {
 
 .postcards {
   opacity: 1;
-  transition: 0.3s;
 }
 .postcard:hover .postcards {
   opacity: 0;
+  transition: 0.5s;
 }
