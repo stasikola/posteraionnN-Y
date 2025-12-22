@@ -154,7 +154,7 @@ p {
 /* 2 */
 .sh-2 {
   position: absolute;
-  top: 90vw;
+  top: 84vw;
   left: 25vw;
   width: 11.0938vw;
   height: 11.0938vw;
@@ -363,14 +363,14 @@ p {
 /* gift */
 .b1 {
   position: absolute;
-  top: 90vw;
-  left: 53.5vw;
+  top: 95vw;
+  left: 30.5vw;
   width: 38.3594vw;
   height: 25.7813vw;
   background-image: url(../images/Ellipse\ 101.png);
   background-repeat: no-repeat;
   background-size: 9vw;
-  background-position: 1vw 5vw;
+  background-position: 1.3vw 5vw;
   transition: 0.3s;
 }
 .be,
@@ -384,8 +384,8 @@ p {
   top: 1.8vw;
   opacity: 0;
 }
-.be:hover .box1 {
-  animation: be 2s ease-in-out;
+.b1:hover .be {
+  animation: be 20s ease-in;
 }
 .box1 {
   top: 0.8vw;
@@ -395,7 +395,7 @@ p {
 .box1-r {
 }
 .b1:hover .box1 {
-  transform: rotateY(-80deg); /* Открываем вперед */
+  transform: rotate(80deg); /* Открываем вперед */
 }
 /* postcard */
 .block-2 img {
