@@ -1,3 +1,10 @@
+/* @media screen and (max-width: 600px) {
+  .chris-tree {
+    width: 120%;
+    height: 120%;
+  }
+} */
+
 @media screen and (max-width: 500px) {
   .block-2 {
     display: flex;
@@ -16,4 +23,3 @@
     font-size: 10vw;
   }
 }
-/* правка */
