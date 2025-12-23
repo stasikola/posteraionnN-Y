@@ -69,7 +69,7 @@ p {
   background-position: center center, center center; 
   background-repeat: no-repeat,  no-repeat;  } */
 .chris-tree {
-  width: 100%;
+  width: 100vw;
   height: 119.5313vw;
   position: relative;
   overflow: hidden;
@@ -397,7 +397,7 @@ p {
 .box1-r {
 }
 .b1:hover .box1 {
-  transform: rotate(80deg); /* Открываем вперед */
+  transform: rotate(80deg);
 }
 .box2 {
   position: absolute;
@@ -463,7 +463,7 @@ p {
 }
 
 .b6:hover .box6-r {
-  transform: rotate(80deg); /* Открываем вперед */
+  transform: rotate(80deg);
 }
 .ho {
   position: absolute;

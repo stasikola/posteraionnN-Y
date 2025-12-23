@@ -4,6 +4,259 @@
     height: 120%;
   }
 } */
+@media (max-width: 600px) {
+  .chris-tree {
+    width: 100vw;
+    height: 119.5313vw;
+    position: relative;
+    overflow: hidden;
+    background: url(../images/chetree.png);
+    background-size: 500px 700px;
+    background-position: center center;
+    background-repeat: no-repeat;
+  }
+  .chris-tree::after {
+    content: "";
+    position: absolute;
+    top: 30vw;
+    left: 13vw;
+    width: 65vw;
+    height: 70vw;
+    background: url(../images/gard.gif);
+    background-size: 420px 470px;
+    background-position: center;
+    background-repeat: no-repeat;
+    mix-blend-mode: screen;
+    z-index: 0;
+  } /* 1 */
+  .sh-1 {
+    position: absolute;
+    top: 19vw;
+    left: 53.5vw;
+    width: 50px;
+    height: 50px;
+    background: url("../images/sh-1.png") center/cover no-repeat;
+    z-index: 1;
+    transform-origin: top center;
+  }
+
+  /* 2 */
+  .sh-2 {
+    position: absolute;
+    top: 80vw;
+    left: 25vw;
+    width: 80px;
+    height: 80px;
+    background: url("../images/sh-2.png") center/cover no-repeat;
+    z-index: 1;
+    transform-origin: top center;
+  }
+
+  /* 3 */
+  .sh-3 {
+    position: absolute;
+    top: 65vw;
+    left: 35vw;
+    width: 90px;
+    height: 90px;
+    background: url("../images/sh-3.png") center/cover no-repeat;
+    z-index: 1;
+    transform-origin: top center;
+  }
+
+  /* 4 */
+  .sh-4 {
+    position: absolute;
+    top: 69vw;
+    left: 18vw;
+    width: 50px;
+    height: 50px;
+    background: url("../images/sh-6.png") center/cover no-repeat;
+    z-index: 1;
+    transform-origin: top center;
+  }
+
+  /* 5 */
+  .sh-5 {
+    position: absolute;
+    top: 27vw;
+    left: 30vw;
+    width: 70px;
+    height: 70px;
+    background: url("../images/sh-5.png") center/cover no-repeat;
+    z-index: 1;
+    transform-origin: top center;
+  }
+
+  /* 6 */
+  .sh-6 {
+    position: absolute;
+    top: 45vw;
+    left: 23vw;
+    width: 80px;
+    height: 80px;
+    background: url("../images/sh-4.png") center/cover no-repeat;
+    z-index: 1;
+    transform-origin: top center;
+  }
+
+  /* 7 */
+  .sh-7 {
+    position: absolute;
+    top: 42vw;
+    left: 46vw;
+    width: 65px;
+    height: 65px;
+    background: url("../images/sh-7.png") center/cover no-repeat;
+    z-index: 1;
+    transform-origin: top center;
+  }
+
+  /* 8 */
+  .sh-8 {
+    position: absolute;
+    top: 81vw;
+    left: 53vw;
+    width: 65px;
+    height: 65px;
+    background: url("../images/sh-8.png") center/cover no-repeat;
+    z-index: 1;
+    transform-origin: top center;
+  }
+
+  /* 9 */
+  .sh-9 {
+    position: absolute;
+    top: 53vw;
+    left: 60vw;
+    width: 90px;
+    height: 90px;
+    background: url("../images/sh-9.png") center/cover no-repeat;
+    z-index: 1;
+    transform-origin: top center;
+  }
+
+  /* 10 */
+  .sh-10 {
+    position: absolute;
+    top: 77vw;
+    left: 73vw;
+    width: 65px;
+    height: 65px;
+    background: url("../images/sh-10.png") center/cover no-repeat;
+    z-index: 1;
+    transform-origin: top center;
+  }
+
+  /* gift */
+  .b1 {
+    position: absolute;
+    top: 99vw;
+    left: 30.5vw;
+    width: 11.7188vw;
+    height: 25.7813vw;
+    background-image: url(../images/Ellipse\ 101.png);
+    background-repeat: no-repeat;
+    background-size: 11vw;
+    background-position: 1.5vw 5.2vw;
+    z-index: 3;
+  }
+  .be,
+  .box1,
+  .box1-r {
+    position: absolute;
+    width: 13.7188vw;
+    height: auto;
+  }
+  .be {
+    top: 1.8vw;
+  }
+
+  .box1 {
+    top: 0.8vw;
+  }
+
+  .box2 {
+    position: absolute;
+    top: 98vw;
+    left: 12.5vw;
+    width: 22.625vw;
+    height: 22.625vw;
+  }
+  .box3 {
+    position: absolute;
+    top: 95vw;
+    left: 23.5vw;
+    width: 17.7813vw;
+    height: 15.125vw;
+  }
+  .box4 {
+    position: absolute;
+    top: 92.5vw;
+    left: 55.5vw;
+    width: 25vw;
+    height: 25vw;
+  }
+  .box5 {
+    position: absolute;
+    top: 95vw;
+    left: 68.5vw;
+    width: 21.6406vw;
+    height: 21vw;
+  }
+  .b6 {
+    position: absolute;
+    top: 105vw;
+    left: 62.5vw;
+    width: 20.7188vw;
+    height: 30.7813vw;
+    background-image: url(../images/Ellipse\ 101.png);
+    background-repeat: no-repeat;
+    background-size: 14.5vw;
+    background-position: 2.3vw 3vw;
+    z-index: 5;
+  }
+  .be2,
+  .box6,
+  .box6-r {
+    position: absolute;
+    width: 18.7188vw;
+    height: auto;
+  }
+  .be2 {
+    top: 1.8vw;
+    left: 2vw;
+    opacity: 0;
+    transition: 3s;
+    width: 15.7188vw;
+  }
+  .b6:hover .be2 {
+    animation: be 20s ease-in;
+  }
+  .box6-r {
+    top: 0.8vw;
+    transform-origin: right;
+    transition: transform 0.5s ease;
+  }
+
+  .b6:hover .box6-r {
+    transform: rotate(80deg); /* Открываем вперед */
+  }
+  .ho {
+    position: absolute;
+    top: 93vw;
+    left: 62.5vw;
+    width: 100%;
+    height: 26.7969vw;
+    overflow: hidden;
+    z-index: 5;
+    animation: runstr 10s linear infinite;
+  }
+  .horse {
+    width: 47vw;
+    height: 26.796vw;
+  }
+}
 
 @media screen and (max-width: 500px) {
   .block-2 {
