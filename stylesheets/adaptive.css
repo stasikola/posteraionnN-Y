@@ -18,10 +18,10 @@
   .chris-tree::after {
     content: "";
     position: absolute;
-    top: 30vw;
-    left: 13vw;
-    width: 65vw;
-    height: 70vw;
+    top: 20vw;
+    left: 0;
+    width: 100vw;
+    height: 100vw;
     background: url(../images/gard.gif);
     background-size: 420px 470px;
     background-position: center;
@@ -147,115 +147,6 @@
     z-index: 1;
     transform-origin: top center;
   }
-
-  /* gift */
-  .b1 {
-    position: absolute;
-    top: 99vw;
-    left: 30.5vw;
-    width: 11.7188vw;
-    height: 25.7813vw;
-    background-image: url(../images/Ellipse\ 101.png);
-    background-repeat: no-repeat;
-    background-size: 11vw;
-    background-position: 1.5vw 5.2vw;
-    z-index: 3;
-  }
-  .be,
-  .box1,
-  .box1-r {
-    position: absolute;
-    width: 13.7188vw;
-    height: auto;
-  }
-  .be {
-    top: 1.8vw;
-  }
-
-  .box1 {
-    top: 0.8vw;
-  }
-
-  .box2 {
-    position: absolute;
-    top: 98vw;
-    left: 12.5vw;
-    width: 22.625vw;
-    height: 22.625vw;
-  }
-  .box3 {
-    position: absolute;
-    top: 95vw;
-    left: 23.5vw;
-    width: 17.7813vw;
-    height: 15.125vw;
-  }
-  .box4 {
-    position: absolute;
-    top: 92.5vw;
-    left: 55.5vw;
-    width: 25vw;
-    height: 25vw;
-  }
-  .box5 {
-    position: absolute;
-    top: 95vw;
-    left: 68.5vw;
-    width: 21.6406vw;
-    height: 21vw;
-  }
-  .b6 {
-    position: absolute;
-    top: 105vw;
-    left: 62.5vw;
-    width: 20.7188vw;
-    height: 30.7813vw;
-    background-image: url(../images/Ellipse\ 101.png);
-    background-repeat: no-repeat;
-    background-size: 14.5vw;
-    background-position: 2.3vw 3vw;
-    z-index: 5;
-  }
-  .be2,
-  .box6,
-  .box6-r {
-    position: absolute;
-    width: 18.7188vw;
-    height: auto;
-  }
-  .be2 {
-    top: 1.8vw;
-    left: 2vw;
-    opacity: 0;
-    transition: 3s;
-    width: 15.7188vw;
-  }
-  .b6:hover .be2 {
-    animation: be 20s ease-in;
-  }
-  .box6-r {
-    top: 0.8vw;
-    transform-origin: right;
-    transition: transform 0.5s ease;
-  }
-
-  .b6:hover .box6-r {
-    transform: rotate(80deg); /* Открываем вперед */
-  }
-  .ho {
-    position: absolute;
-    top: 93vw;
-    left: 62.5vw;
-    width: 100%;
-    height: 26.7969vw;
-    overflow: hidden;
-    z-index: 5;
-    animation: runstr 10s linear infinite;
-  }
-  .horse {
-    width: 47vw;
-    height: 26.796vw;
-  }
 }
 
 @media screen and (max-width: 500px) {
@@ -274,5 +165,75 @@
   }
   .block-2 h1 {
     font-size: 10vw;
+  }
+}
+@media (max-width: 450px) {
+  .b1,
+  .box2,
+  .box3,
+  .box4,
+  .box5,
+  .b6,
+  .ho {
+    display: none;
+  }
+  /* 1 */
+  .sh-1 {
+    top: 10vw;
+    left: 53.5vw;
+  }
+
+  /* 2 */
+  .sh-2 {
+    top: 90vw;
+    left: 20vw;
+  }
+
+  /* 3 */
+  .sh-3 {
+    top: 65vw;
+    left: 35vw;
+  }
+
+  /* 4 */
+  .sh-4 {
+    top: 75vw;
+    left: 15vw;
+  }
+
+  /* 5 */
+  .sh-5 {
+    top: 20vw;
+    left: 30vw;
+  }
+
+  /* 6 */
+  .sh-6 {
+    top: 45vw;
+    left: 15vw;
+  }
+
+  /* 7 */
+  .sh-7 {
+    top: 42vw;
+    left: 46vw;
+  }
+
+  /* 8 */
+  .sh-8 {
+    top: 90vw;
+    left: 53vw;
+  }
+
+  /* 9 */
+  .sh-9 {
+    top: 53vw;
+    left: 60vw;
+  }
+
+  /* 10 */
+  .sh-10 {
+    top: 83vw;
+    left: 73vw;
   }
 }
